@@ -1,7 +1,12 @@
-html {font-size: 16px;}
+html {font-size: 16px;
+  background-color: black;
+  color: white;}
 #container {
   width: 50%;
   margin: 100px auto;
+}
+img {
+  width: 100%;
 }
 h1 {
   font-size: 3.052em;
@@ -26,6 +31,6 @@ h5 {
   font-size: 2em;
 }
 .special {
-  color: blue;
+  /* color: blue; */
   font-family: sans-serif;
 }
