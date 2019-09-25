@@ -1,0 +1,34 @@
+body{
+  background-color: #333333;
+}
+/* # targets an ID, board references the name */
+#board {
+  width: 800px;
+  margin: 50px auto;
+}
+/* dot to target a class then the name of that class */
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  float: left;
+}
+.white {
+  width: 100px;
+  height: 100px;
+  background-color: gainsboro;
+  float: left;
+}
+/* this is the exact same as above just written a different way */
+/* comma separated list to apply the same styles to multiple things */
+.red, .white {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.red {
+  background-color: crimson;
+}
+.white {
+  background-color: gainsboro;
+}
