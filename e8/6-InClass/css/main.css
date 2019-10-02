@@ -1,0 +1,59 @@
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  margin: 0;
+}
+/* pound sign references ID */
+#foursix {
+  width: 400px;
+  margin: calc((100vh - 600px) / 2) auto;
+}
+.oneone, .onetwo, .onefour, .twoone, .twofour, .twotwo-c, .onefour-c {
+  float: left;
+}
+.twotwo-c {
+  width: 200px;
+}
+.onefour-c {
+  width: 100px;
+}
+.oneone, .onetwo, .onefour, .twoone, .twofour {
+  border: 5px solid white;
+}
+.oneone {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+}
+.onetwo {
+  width: 100px;
+  height: 200px;
+  background-color: #333;
+}
+.onefour {
+  width: 100px;
+  height: 400px;
+  background-color: #666;
+}
+.twoone {
+  width: 200px;
+  height: 100px;
+  background-color: #999;
+}
+.twofour {
+  width: 200px;
+  height: 400px;
+  background-color: #ccc;
+}
