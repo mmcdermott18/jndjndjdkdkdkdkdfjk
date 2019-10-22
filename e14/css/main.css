@@ -1,0 +1,78 @@
+html {
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+#container {
+  width: 50vw;
+  margin: 100px auto;
+}
+img {
+  width: 100%;
+}
+h1 {
+  font-size: 3.052em;
+}
+
+h2 {
+  font-size: 2.441em;
+}
+
+h3 {
+  font-size: 1.953em;
+}
+
+h4 {
+  font-size: 1.563em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+.intro {
+  font-size: 2em;
+}
+.special {
+  /* color: blue; */
+  font-family: sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 20px;
+    background-color: #222;
+  }
+  #container {
+    width: 90vw;
+    margin: 25px auto;
+  }
+  .intro {
+    line-height: 1.2em;
+  }
+  p{
+    line-height: 1.6em;
+  }
+}
+/* @media only screen and (min-width: 1800px) {
+  html{
+    background-color: white;
+    color: white;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  html{
+    background-color: tomato;
+    color: tomato;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html{
+    background-color: dodgerblue;
+    color: dodgerblue;
+  }
+}
+@media only screen and (max-width: 500px) {
+  html{
+    background-color: yellow;
+    color: yellow;
+  }
+} */
