@@ -1,7 +1,35 @@
-p {
-  transition: all 3s ease;
+* {
+  box-sizing: border-box;
 }
-/* class we are toggling through jquery */
-.grow {
-  font-size: 10vw;
+html {
+  /* setting my base font size */
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+.title {
+  width: 100vw;
+  height: 90vh;
+  background-color: dodgerblue;
+  color: white;
+  padding: 32vh 0 0 0;
+}
+.snow {
+  width: 100vw;
+  height: 90vh;
+  background-color: whitesmoke;
+  color: #ddd;
+  padding: 32vh 0 0 0;
+  }
+h1 {
+  text-transform: uppercase;
+  font-size: 5em;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: .05em;
+}
+.align-left {
+  text-align: left;
 }
